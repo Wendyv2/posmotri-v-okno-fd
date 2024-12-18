@@ -229,7 +229,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
 }
 
 .title {
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 75px;
   line-height: 70.5px;
   text-transform: uppercase;
@@ -295,7 +295,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
 
 .content__video-card-title {
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   line-height: 30px;
   width: 196px;
