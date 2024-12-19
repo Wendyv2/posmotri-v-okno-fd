@@ -9,6 +9,8 @@ html {
 }
 
 .page {
+  position: relative;
+  top: 10vh;
   display: flex;
   inline-size: 1200px;
   block-size: 100%;
