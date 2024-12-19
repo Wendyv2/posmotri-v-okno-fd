@@ -10,10 +10,8 @@ html {
 
 .page {
   position: relative;
-  top: 14vh;
   display: flex;
   inline-size: 1200px;
-  height: 800px;
   block-size: 100%;
   margin: auto;
   color: #fff;
@@ -55,6 +53,8 @@ ol {
 }
 
 .content {
+  position: relative
+  inset 0;
   display: grid;
   grid-template-columns: 711px 1fr;
   grid-template-rows: auto;
@@ -276,6 +276,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
 .content__video-card {
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 /*чтобы обводка в focus-visible не прилипала к верхней границе*/
